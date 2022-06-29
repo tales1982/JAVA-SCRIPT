@@ -19,13 +19,18 @@
 
    </style>
 <body>
-<h1>Calculo somar</h1>
+    <main id="res">
+        <h1>Calculo somar</h1>
+        <p></p>
+    </main>
+
+
    <script>
        // comentario no javascript
    var n1 = Number (prompt('Digite sua idade. '))
    var n2 = Number (prompt('Digite outro numero'))
    var s = n1 + n2
-   alert (`A soma entre ${n1} e ${n2} e igual a ${s}`)
+    document.getElementById('res')=(`A soma entre ${n1} e ${n2} e igual a ${s}`)
    </script>
 
 </body>
